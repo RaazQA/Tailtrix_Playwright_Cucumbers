@@ -1,0 +1,26 @@
+{
+  "name": "ply_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/**/*.feature --require-module ts-node/register --require step-definitions/**/*.ts --format json:reports/report.json",
+    "generate-report": "ts-node generate-report.ts"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.6",
+    "cucumber-html-reporter": "^5.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "playwright": "^1.40.1"
+  }
+}

@@ -1,0 +1,286 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-is-able-to-search-through-global-search;verify-whether-user-is-able-to-search-through-global-search",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify whether user is able to search through Global Search",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 364000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigative to Tailtrix application",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5584000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter valid Email address \"master222@test.com\"",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter valid password \"Tal!tr!x@123\"",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1052000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User able to click on Login button",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11083000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User is able to render Talitrix Application",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10028000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User is able click on Case Notes",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1231000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User has to able to view Add Note Export to PDF Export to ExcelColumn Chooser Global search",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6044000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-is-able-to-search-through-global-search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "user is able to search through Global Search",
+    "tags": [],
+    "uri": "features\\globalsearching.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "tailtrix_login-authentication;login-&-logut-should-be-success",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login & logut should be success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigative to Tailtrix application",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enter valid Email address \"master222@test.com\"",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter valid password \"Tal!tr!x@123\"",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1050000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User able to click on Login button",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11084000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User is able to render Talitrix Application",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10025000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be able to go to the right top of the page and click on manage account icon",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User should be able to click on the icon to view below records Profile Settings Logout",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6030000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User should be able to click on Logout button",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User should be able to Logout from the application and should appear login page",
+            "match": {
+              "location": "step-definitions\\login&logut.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "tailtrix_login-authentication",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Tailtrix_login Authentication",
+    "tags": [],
+    "uri": "features\\login&logout.feature"
+  }
+]
